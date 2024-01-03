@@ -2,7 +2,8 @@
     "name": "admin/fast-kart-food",
     "autoload": {
         "psr-4": {
-            "Admin\\FastKartFood\\": "src/"
+            "Admin\\FastKartFood\\": "src/",
+            "app\\": "./"
         }
     },
     "authors": [
@@ -11,10 +12,5 @@
             "email": "145202740+TrietNamePK12345@users.noreply.github.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "app\\": "./."
-        }
-    },
     "require": {}
 }
